@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Button: React.FC = () => {
   return (
-    <Link href={''}>
+    <Link href={'https://awesome-parallax-effect.vercel.app/'} target="_blank" rel="noopener">
       <motion.button
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}
