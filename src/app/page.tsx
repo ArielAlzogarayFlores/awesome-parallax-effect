@@ -14,6 +14,7 @@ export default function Home() {
         </p>
         <Divider />
         <Button />
+        <p className="text-sm mt-6 text-slate-400">Scroll down ↓</p>
       </div>
       <ColumnContainer />
       <div className="h-screen w-full p-6 bg-slate-50">

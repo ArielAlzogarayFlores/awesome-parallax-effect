@@ -4,11 +4,15 @@ import Link from "next/link";
 
 const Button: React.FC = () => {
   return (
-    <Link href={'https://awesome-parallax-effect.vercel.app/'} target="_blank" rel="noopener">
+    <Link
+      href={"https://github.com/ArielAlzogarayFlores/awesome-parallax-effect"}
+      target="_blank"
+      rel="noopener"
+    >
       <motion.button
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}
-        className="px-4 py-2 font-semibold rounded-md bg-slate-950 text-slate-50 flex items-center justify-center gap-2"
+        className="px-4 py-2 font-semibold rounded-md bg-slate-950 text-slate-50 flex items-center justify-center gap-2 select-none"
       >
         <svg
           width="24"
