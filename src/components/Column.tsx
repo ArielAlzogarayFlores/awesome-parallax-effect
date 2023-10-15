@@ -25,6 +25,7 @@ const Column: React.FC<ColumnProps> = ({ images, y }) => {
               fill
               className="object-cover"
               quality={100}
+              priority={true}
             />
           </div>
         );

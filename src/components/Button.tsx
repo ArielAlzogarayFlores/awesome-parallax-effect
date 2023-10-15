@@ -3,6 +3,8 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 
 const Button: React.FC = () => {
+
+
   return (
     <Link
       href={"https://github.com/ArielAlzogarayFlores/awesome-parallax-effect"}
